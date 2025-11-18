@@ -2,6 +2,8 @@ name: List Repository Labels
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   list-labels:
